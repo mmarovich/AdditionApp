@@ -97,7 +97,7 @@ class Quiz extends Component {
 		if(this.state.correct) {
 			return <h3>Good Job! Hit the button below to play again!</h3>
 		} else {
-			return <h3>Uh Oh! Hit the button to try again!</h3>
+			return <h3>You wrong as hell! Try again!</h3>
 		}
 	}
 
